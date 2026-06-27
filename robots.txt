@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://drchangtingwei-code.github.io/sitemap.xml
