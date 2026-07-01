@@ -635,13 +635,22 @@ h3 {
   padding-inline: max(clamp(20px, 5vw, 36px), calc((100vw - var(--max)) / 2 + 36px));
 }
 
+.education-heading {
+  align-items: end;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr auto;
+}
+
 .article-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-top: 34px;
 }
 
 .article-card {
-  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  min-height: 410px;
   padding: 28px;
 }
 
@@ -651,6 +660,36 @@ h3 {
   font-size: 0.84rem;
   font-weight: 900;
   margin-bottom: 16px;
+}
+
+.article-points {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  display: grid;
+  gap: 10px;
+  margin: auto 0 0;
+  padding: 18px 0 0 1.1rem;
+}
+
+.education-note {
+  align-items: center;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: auto 1fr;
+  margin-top: 18px;
+  padding: 18px 22px;
+}
+
+.education-note strong {
+  color: var(--deep-teal);
+}
+
+.education-note p {
+  color: var(--muted);
+  margin: 0;
 }
 
 .faq {
@@ -817,6 +856,7 @@ details p {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .education-heading,
   .split,
   .about,
   .clinic,
@@ -906,6 +946,10 @@ details p {
   .steps article,
   .article-card {
     min-height: auto;
+  }
+
+  .education-note {
+    grid-template-columns: 1fr;
   }
 
   .clinic-row {
