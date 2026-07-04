@@ -943,6 +943,114 @@ h3 {
   margin: 0;
 }
 
+.prep-overview {
+  display: grid;
+  gap: clamp(28px, 6vw, 64px);
+  grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.22fr);
+}
+
+.prep-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.prep-card,
+.prep-topic {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.prep-card {
+  min-height: 230px;
+  padding: 24px;
+}
+
+.prep-card span,
+.prep-topic-heading span {
+  color: var(--coral);
+  display: inline-block;
+  font-size: 0.84rem;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+.prep-card p {
+  color: var(--muted);
+  margin: 0;
+}
+
+.prep-section {
+  background: var(--soft);
+  max-width: none;
+  padding-inline: max(clamp(20px, 5vw, 36px), calc((100vw - var(--max)) / 2 + 36px));
+}
+
+.prep-list {
+  display: grid;
+  gap: 18px;
+  margin-top: 34px;
+}
+
+.prep-topic {
+  box-shadow: 0 16px 38px rgba(37, 50, 53, 0.08);
+  overflow: hidden;
+}
+
+.prep-topic-heading {
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+  padding: 24px clamp(22px, 4vw, 32px);
+}
+
+.prep-topic-heading h3 {
+  font-size: clamp(1.28rem, 2.2vw, 1.68rem);
+  margin: 0;
+}
+
+.prep-columns {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.prep-columns > div {
+  background: #fff;
+  padding: 24px clamp(22px, 4vw, 32px);
+}
+
+.prep-columns h4 {
+  color: var(--deep-teal);
+  font-size: 1rem;
+  margin: 0 0 12px;
+}
+
+.prep-columns ul {
+  color: var(--muted);
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.prep-topic .text-link {
+  margin: 0;
+  padding: 0 32px 26px;
+}
+
+.prep-topic.urgent {
+  border-color: rgba(212, 111, 95, 0.42);
+}
+
+.prep-topic.urgent .prep-topic-heading {
+  background: var(--warm);
+}
+
+.prep-steps {
+  margin-top: 34px;
+}
+
 .faq {
   align-items: start;
   display: grid;
@@ -1112,7 +1220,8 @@ details p {
   .about,
   .clinic,
   .faq,
-  .article-shell {
+  .article-shell,
+  .prep-overview {
     grid-template-columns: 1fr;
   }
 
@@ -1121,7 +1230,8 @@ details p {
   }
 
   .key-point-grid,
-  .article-index-grid {
+  .article-index-grid,
+  .prep-columns {
     grid-template-columns: 1fr;
   }
 
@@ -1193,13 +1303,15 @@ details p {
   .card-grid.four,
   .steps,
   .article-grid,
-  .profile-list {
+  .profile-list,
+  .prep-grid {
     grid-template-columns: 1fr;
   }
 
   .section,
   .about,
-  .education {
+  .education,
+  .prep-section {
     padding-block: 60px;
   }
 
