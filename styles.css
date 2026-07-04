@@ -1051,6 +1051,113 @@ h3 {
   margin-top: 34px;
 }
 
+.service-paths {
+  text-align: left;
+}
+
+.service-path-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 34px;
+}
+
+.service-path-card,
+.service-detail {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.service-path-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 310px;
+  padding: 24px;
+}
+
+.service-path-card span,
+.service-detail-heading span {
+  color: var(--coral);
+  display: inline-block;
+  font-size: 0.84rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+
+.service-path-card p {
+  color: var(--muted);
+  margin-bottom: 0;
+}
+
+.service-path-card .text-link {
+  margin-top: auto;
+  padding-top: 18px;
+}
+
+.service-detail-section {
+  background: var(--soft);
+  display: grid;
+  gap: 18px;
+  max-width: none;
+  padding-inline: max(clamp(20px, 5vw, 36px), calc((100vw - var(--max)) / 2 + 36px));
+}
+
+.service-detail {
+  box-shadow: 0 16px 38px rgba(37, 50, 53, 0.08);
+  overflow: hidden;
+}
+
+.service-detail-heading {
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+  padding: clamp(24px, 4vw, 36px);
+}
+
+.service-detail-heading h2 {
+  font-size: clamp(1.65rem, 3vw, 2.25rem);
+  margin-bottom: 10px;
+}
+
+.service-detail-heading p {
+  color: var(--muted);
+  margin: 0;
+  max-width: 840px;
+}
+
+.service-detail-grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.service-detail-grid > div {
+  background: #fff;
+  padding: clamp(22px, 4vw, 32px);
+}
+
+.service-detail-grid h3 {
+  color: var(--deep-teal);
+}
+
+.service-detail-grid ul {
+  color: var(--muted);
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.service-detail-actions {
+  align-items: center;
+  background: #fff;
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 22px clamp(22px, 4vw, 32px);
+}
+
 .faq {
   align-items: start;
   display: grid;
@@ -1221,7 +1328,8 @@ details p {
   .clinic,
   .faq,
   .article-shell,
-  .prep-overview {
+  .prep-overview,
+  .service-detail-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1231,8 +1339,22 @@ details p {
 
   .key-point-grid,
   .article-index-grid,
-  .prep-columns {
+  .prep-columns,
+  .service-path-grid {
     grid-template-columns: 1fr;
+  }
+
+  .service-path-card {
+    min-height: auto;
+  }
+
+  .service-detail-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .service-detail-actions .button {
+    width: 100%;
   }
 
   .doctor-portrait {
@@ -1311,7 +1433,8 @@ details p {
   .section,
   .about,
   .education,
-  .prep-section {
+  .prep-section,
+  .service-detail-section {
     padding-block: 60px;
   }
 
