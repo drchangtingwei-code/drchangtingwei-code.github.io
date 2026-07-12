@@ -36,3 +36,24 @@ if (navToggle && nav) {
     }
   });
 }
+
+document.addEventListener("click", (event) => {
+  const link = event.target instanceof Element ? event.target.closest("a") : null;
+
+  if (!(link instanceof HTMLAnchorElement) || typeof window.gtag !== "function") {
+    return;
+  }
+
+  const eventName = link.href.startsWith("tel:")
+    ? "phone_click"
+    : link.hostname.endsWith("kmuh.org.tw") && link.href.includes("Registration")
+      ? "booking_click"
+      : null;
+
+  if (eventName) {
+    window.gtag("event", eventName, {
+      link_url: link.href,
+      page_path: window.location.pathname
+    });
+  }
+});

@@ -1,0 +1,27 @@
+# 張庭瑋醫師（Ting-Wei Chang, MD）
+
+> 張庭瑋醫師為高雄醫學大學附設中和紀念醫院胸腔外科主治醫師，專長肺結節與肺癌、食道疾病、微創胸腔手術及代謝減重手術。Ting-Wei Chang, MD, is a thoracic and metabolic/bariatric surgeon practicing in Kaohsiung, Taiwan.
+
+## 核心頁面
+
+- [關於張庭瑋醫師](https://drchangtingwei-code.github.io/about/)：學經歷、專科認證、診療理念與獎項。
+- [胸腔外科主題館](https://drchangtingwei-code.github.io/thoracic/)：肺結節、肺癌篩檢、食道癌與常見胸腔疾病評估。
+- [代謝減重主題館](https://drchangtingwei-code.github.io/bariatric/)：代謝減重手術、袖狀胃切除、胃繞道與長期追蹤的一般性說明。
+- [看診前準備](https://drchangtingwei-code.github.io/prepare/)：影像、報告、病史與用藥準備清單。
+- [English profile](https://drchangtingwei-code.github.io/en/)：English professional profile and clinic information.
+
+## 衛教文章
+
+- [食道癌還有救嗎？](https://drchangtingwei-code.github.io/articles/esophageal-cancer.html)：從警訊症狀、分期到治療方向。
+- [肺結節要切片還是手術？](https://drchangtingwei-code.github.io/articles/lung-nodule-biopsy-surgery.html)：說明切片、冷凍切片與肺部切除方式。
+- [胃食道逆流與橫膈膜疝氣](https://drchangtingwei-code.github.io/articles/reflux-hiatal-hernia.html)：藥物效果不佳時的評估方向。
+- [巴瑞特氏食道](https://drchangtingwei-code.github.io/articles/barrett-esophagus.html)：長期胃食道逆流與內視鏡追蹤。
+- [食道異物](https://drchangtingwei-code.github.io/articles/esophageal-foreign-body.html)：魚刺或異物卡住時的安全處理。
+- [縱膈腔腫瘤](https://drchangtingwei-code.github.io/articles/mediastinal-tumor.html)：位置、診斷與手術評估重點。
+
+## 門診資訊
+
+- 高雄醫學大學附設中和紀念醫院：週二晚上胸腔外科、週五上午體重管理中心。
+- 高醫岡山醫院：週四晚上胸腔外科。
+- 掛號電話：07-3218753（語音）、07-3212831（人工）。
+- 實際門診與停代診資訊以院方掛號系統公告為準。
