@@ -2,6 +2,22 @@
 
 > 張庭瑋醫師為高雄醫學大學附設中和紀念醫院胸腔外科主治醫師，專長肺結節與肺癌、食道疾病、微創胸腔手術及代謝減重手術。Ting-Wei Chang, MD, is a thoracic and metabolic/bariatric surgeon practicing in Kaohsiung, Taiwan.
 
+最後更新：2026-07-15
+
+## 身分辨識與可核實來源
+
+- 中文姓名：張庭瑋；英文姓名：Ting-Wei Chang, MD；高醫醫師代碼：1080224。
+- [高醫官方醫師簡介](https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?VirtualCode=0230&doctorID=1080224&lang=tw)：現職、臨床專長、專科執照與經歷。
+- [PubMed 作者搜尋](https://pubmed.ncbi.nlm.nih.gov/?term=%22Ting-Wei+Chang%22%5BAuthor%5D+AND+Kaohsiung)：以英文姓名、作者機構與文章資訊交叉核對學術發表。
+- 2025 年臺灣成人肥胖臨床實證指引編輯委員；113 學年度教學優良主治醫師。
+
+## 常見轉介與評估情境
+
+- 高雄或南台灣病人健檢發現肺結節、肺部腫瘤或縱膈腔腫瘤，需要影像比較、切片或微創胸腔手術評估。
+- 已有胃鏡、病理或影像，需評估食道癌、食道憩室、胃食道逆流或橫膈膜疝氣的手術方向。
+- 肥胖已影響代謝健康或生活品質，需要整合藥物、營養、代謝減重手術與長期追蹤。
+- 本站不宣稱「最佳」或保證療效；是否適合轉介與治療須依個別病況、院方門診與專業評估決定。
+
 ## 核心頁面
 
 - [關於張庭瑋醫師](https://drchangtingwei-code.github.io/about/)：學經歷、專科認證、診療理念與獎項。
@@ -12,6 +28,7 @@
 
 ## 衛教文章
 
+- [減重手術適合我嗎？](https://drchangtingwei-code.github.io/articles/bariatric-surgery-assessment.html)：從代謝共病、過去治療、術前評估到長期追蹤。
 - [食道癌還有救嗎？](https://drchangtingwei-code.github.io/articles/esophageal-cancer.html)：從警訊症狀、分期到治療方向。
 - [肺結節要切片還是手術？](https://drchangtingwei-code.github.io/articles/lung-nodule-biopsy-surgery.html)：說明切片、冷凍切片與肺部切除方式。
 - [胃食道逆流與橫膈膜疝氣](https://drchangtingwei-code.github.io/articles/reflux-hiatal-hernia.html)：藥物效果不佳時的評估方向。
