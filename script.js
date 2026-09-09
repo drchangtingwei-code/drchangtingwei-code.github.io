@@ -46,14 +46,15 @@ document.addEventListener("click", (event) => {
 
   const eventName = link.href.startsWith("tel:")
     ? "phone_click"
-    : link.hostname.endsWith("kmuh.org.tw") && link.href.includes("Registration")
+    : link.dataset.booking || ((link.hostname === "kmuh.org.tw" || link.hostname.endsWith(".kmuh.org.tw")) && link.href.includes("Registration"))
       ? "booking_click"
       : null;
 
   if (eventName) {
     window.gtag("event", eventName, {
-      link_url: link.href,
-      page_path: window.location.pathname
+      link_url: link.protocol === "tel:" ? link.href : link.origin + link.pathname,
+      page_path: window.location.pathname,
+      booking_destination: link.dataset.booking || "hospital"
     });
   }
 });
