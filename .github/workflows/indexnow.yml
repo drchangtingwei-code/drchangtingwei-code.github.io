@@ -24,7 +24,7 @@ jobs:
         shell: bash
         run: |
           for attempt in {1..18}; do
-            status="$(curl --silent --output /dev/null --write-out '%{http_code}' https://drchangtingwei-code.github.io/cbb558b64518180c2841e18dc6fc80ad.txt)"
+            status="$(curl --silent --output /dev/null --write-out '%{http_code}' https://drchangtingwei.com/cbb558b64518180c2841e18dc6fc80ad.txt)"
             if [ "$status" = "200" ]; then
               exit 0
             fi
@@ -41,26 +41,26 @@ jobs:
             --data-binary @- \
             https://api.indexnow.org/indexnow <<'JSON'
           {
-            "host": "drchangtingwei-code.github.io",
+            "host": "drchangtingwei.com",
             "key": "cbb558b64518180c2841e18dc6fc80ad",
-            "keyLocation": "https://drchangtingwei-code.github.io/cbb558b64518180c2841e18dc6fc80ad.txt",
+            "keyLocation": "https://drchangtingwei.com/cbb558b64518180c2841e18dc6fc80ad.txt",
             "urlList": [
-              "https://drchangtingwei-code.github.io/",
-              "https://drchangtingwei-code.github.io/appointment/",
-              "https://drchangtingwei-code.github.io/about/",
-              "https://drchangtingwei-code.github.io/thoracic/",
-              "https://drchangtingwei-code.github.io/bariatric/",
-              "https://drchangtingwei-code.github.io/en/",
-              "https://drchangtingwei-code.github.io/services.html",
-              "https://drchangtingwei-code.github.io/prepare/",
-              "https://drchangtingwei-code.github.io/articles/",
-              "https://drchangtingwei-code.github.io/articles/esophageal-cancer.html",
-              "https://drchangtingwei-code.github.io/articles/reflux-hiatal-hernia.html",
-              "https://drchangtingwei-code.github.io/articles/barrett-esophagus.html",
-              "https://drchangtingwei-code.github.io/articles/esophageal-foreign-body.html",
-              "https://drchangtingwei-code.github.io/articles/lung-nodule-biopsy-surgery.html",
-              "https://drchangtingwei-code.github.io/articles/mediastinal-tumor.html",
-              "https://drchangtingwei-code.github.io/articles/bariatric-surgery-assessment.html"
+              "https://drchangtingwei.com/",
+              "https://drchangtingwei.com/appointment/",
+              "https://drchangtingwei.com/about/",
+              "https://drchangtingwei.com/thoracic/",
+              "https://drchangtingwei.com/bariatric/",
+              "https://drchangtingwei.com/en/",
+              "https://drchangtingwei.com/services.html",
+              "https://drchangtingwei.com/prepare/",
+              "https://drchangtingwei.com/articles/",
+              "https://drchangtingwei.com/articles/esophageal-cancer.html",
+              "https://drchangtingwei.com/articles/reflux-hiatal-hernia.html",
+              "https://drchangtingwei.com/articles/barrett-esophagus.html",
+              "https://drchangtingwei.com/articles/esophageal-foreign-body.html",
+              "https://drchangtingwei.com/articles/lung-nodule-biopsy-surgery.html",
+              "https://drchangtingwei.com/articles/mediastinal-tumor.html",
+              "https://drchangtingwei.com/articles/bariatric-surgery-assessment.html"
             ]
           }
           JSON

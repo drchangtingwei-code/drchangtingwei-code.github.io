@@ -40,5 +40,5 @@ Allow: /
 User-agent: meta-externalagent
 Allow: /
 
-Sitemap: https://drchangtingwei-code.github.io/sitemap.xml
-Sitemap: https://drchangtingwei-code.github.io/sitemap.txt
+Sitemap: https://drchangtingwei.com/sitemap.xml
+Sitemap: https://drchangtingwei.com/sitemap.txt
