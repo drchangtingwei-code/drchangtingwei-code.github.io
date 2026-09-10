@@ -1,12 +1,14 @@
 # drchangtingwei.com 網域切換
 
-目前尚未切換；保留 GitHub Pages 原網址，直到持有人完成購買與 DNS 設定。
+2026-09-10：網域已購買並接上既有 GitHub Pages。HTTPS 憑證已核發且已強制使用 HTTPS；實測主站回應 200，舊 GitHub 網址與 www 的 /appointment/ 均以 301 保留路徑轉往新網域。
+
+canonical、網站地圖、robots 與 IndexNow 主機已切換。Google Search Console 新網域驗證與網站地圖提交、GitHub 帳戶層級網域所有權驗證尚未確認完成；不可將網站已上線視為 Google 已收錄。
 
 ## 已確認方案（2026-09-09）
 
 - Cloudflare 登入後查詢：drchangtingwei.com 可註冊，1 年 US$10.46，續約當下 US$10.46／年，稅金以結帳為準。
 - Cloudflare 提供註冊與 DNS；GitHub Pages 繼續提供網站主機。
-- 對外網址預定為 https://drchangtingwei.com/，www 轉至主網域。
+- 對外網址為 https://drchangtingwei.com/，www 轉至主網域。
 - 單純更換網域不保證搜尋排名或 AI 推薦提升。
 
 ## 購買後執行順序
