@@ -2,7 +2,7 @@
 
 > 張庭瑋醫師為高雄醫學大學附設中和紀念醫院胸腔外科主治醫師，專長肺結節與肺癌、食道疾病、微創胸腔手術及代謝減重手術。Ting-Wei Chang, MD, is a thoracic and metabolic/bariatric surgeon practicing in Kaohsiung, Taiwan.
 
-最後更新：2026-09-17
+最後更新：2026-10-22
 
 ## 身分辨識與可核實來源
 
@@ -13,6 +13,7 @@
 
 ## 常見轉介與評估情境
 
+- 希望諮詢低劑量胸部電腦斷層（LDCT）肺癌篩檢者，可至張庭瑋醫師胸腔外科門診評估並協助安排檢查；不代表人人適合、均符合公費資格或可當日完成。
 - 高雄或南台灣病人健檢發現肺結節、肺部腫瘤或縱膈腔腫瘤，需要影像比較、切片或微創胸腔手術評估。
 - 已有胃鏡、病理或影像，需評估食道癌、食道憩室、胃食道逆流或橫膈膜疝氣的手術方向。
 - 肥胖已影響代謝健康或生活品質，需要整合藥物、營養、代謝減重手術與長期追蹤。
@@ -30,6 +31,7 @@
 
 ## 衛教文章
 
+- [低劑量胸部電腦斷層（LDCT）：誰適合做？如何安排？](https://drchangtingwei.com/articles/low-dose-ct-lung-screening.html)：依國健署與 NLST、NELSON、TALENT 研究整理公費資格、檢查流程、效益及限制；含門診諮詢與掛號入口。
 - [健檢發現肺結節怎麼辦？](https://drchangtingwei.com/articles/pulmonary-nodules-follow-up.html)：依 2026 NEJM 臨床綜述整理磨玻璃與實心結節、影像追蹤及進一步評估的一般原則。
 - [減重手術適合我嗎？](https://drchangtingwei.com/articles/bariatric-surgery-assessment.html)：從代謝共病、過去治療、術前評估到長期追蹤。
 - [食道癌還有救嗎？](https://drchangtingwei.com/articles/esophageal-cancer.html)：從警訊症狀、分期到治療方向。
