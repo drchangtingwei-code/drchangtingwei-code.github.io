@@ -793,6 +793,54 @@ h3 {
   gap: 26px;
 }
 
+/* LDCT patient education: semantic, responsive diagrams remain usable without JS. */
+.ldct-article [id] { scroll-margin-top: 100px; }
+.ldct-article .article-main, .ldct-article .content-block { min-width: 0; }
+.ldct-figure, .ldct-eligibility, .ldct-process-figure { margin: 0; }
+.ldct-figure img { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--line); }
+.ldct-article figcaption { color: var(--muted); font-size: .9rem; line-height: 1.7; margin-top: 12px; }
+.ldct-small { font-size: .92rem; }
+.ldct-article .content-block a:not(.button), .ldct-section-links a { color: var(--deep-teal); text-decoration: underline; text-underline-offset: 3px; }
+.ldct-eligibility { margin-block: 24px; }
+.ldct-eligibility-grid { display: grid; grid-template-columns: minmax(0, 1fr) 28px minmax(0, 1fr); align-items: stretch; gap: 8px; }
+.ldct-eligibility-card { background: var(--soft); border: 1px solid var(--line); border-top: 5px solid var(--teal); border-radius: 12px; padding: 22px; }
+.ldct-eligibility-card h3 { font-size: 1.45rem; line-height: 1.5; margin: 14px 0; }
+.ldct-or { align-self: center; text-align: center; color: var(--deep-teal); font-weight: 700; }
+.ldct-tag { color: var(--deep-teal); font-size: .84rem; font-weight: 700; letter-spacing: .04em; }
+.ldct-formula { background: var(--warm); padding: 20px; border-radius: 12px; margin-bottom: 22px; }
+.ldct-formula > strong, .ldct-formula > span { display: block; color: var(--deep-teal); }
+.ldct-formula > span { font-size: 1.15rem; font-weight: 700; margin-top: 8px; }
+.ldct-formula p { margin-bottom: 0; }
+.ldct-table-wrap { overflow-x: auto; margin-top: 20px; border: 1px solid var(--line); border-radius: 8px; }
+.ldct-table { border-collapse: collapse; width: 100%; min-width: 480px; font-size: .94rem; line-height: 1.75; }
+.ldct-table caption { text-align: left; color: var(--deep-teal); font-weight: 700; padding: 16px; }
+.ldct-table th, .ldct-table td { text-align: left; vertical-align: top; padding: 16px; border-top: 1px solid var(--line); }
+.ldct-table thead { background: var(--soft); }
+.ldct-table th { color: var(--deep-teal); }
+.ldct-table td { color: var(--muted); }
+.ldct-table th:first-child { width: 31%; }
+.content-block .ldct-process { list-style: none; padding: 0; gap: 18px; margin-top: 24px; }
+.ldct-process li { position: relative; display: grid; grid-template-columns: 52px 1fr; gap: 18px; padding: 20px; background: var(--soft); border: 1px solid var(--line); border-radius: 12px; }
+.ldct-process li + li::before { content: "↓"; position: absolute; left: 38px; top: -24px; color: var(--deep-teal); font-size: 1.2rem; }
+.ldct-step-number { background: var(--deep-teal); color: white; border-radius: 50%; height: 46px; width: 46px; display: grid; place-items: center; font-weight: 700; }
+.ldct-process h3 { margin: 0 0 8px; font-size: 1.2rem; }
+.ldct-process p { margin: 0; }
+.ldct-study { border-left: 4px solid var(--teal); padding: 6px 0 6px 20px; margin: 26px 0; }
+.ldct-study h3 { margin: 8px 0; font-size: 1.25rem; }
+.ldct-study p { margin-bottom: 0; }
+.content-block .ldct-risk-list { gap: 18px; }
+.ldct-risk-list strong { color: var(--deep-teal); }
+.ldct-section-links { display: grid; gap: 12px; }
+.ldct-references { overflow-wrap: anywhere; }
+.ldct-card-image { display: block; width: 100%; height: auto; border-radius: 8px; margin-bottom: 18px; }
+@media (max-width: 640px) {
+  .ldct-eligibility-grid { grid-template-columns: 1fr; }
+  .ldct-eligibility-card { padding: 20px; }
+  .ldct-process li { grid-template-columns: 36px 1fr; gap: 12px; padding: 16px; }
+  .ldct-step-number { width: 34px; height: 34px; font-size: .84rem; }
+  .ldct-process li + li::before { left: 26px; }
+}
+
 .content-block,
 .article-side-card,
 .source-panel,

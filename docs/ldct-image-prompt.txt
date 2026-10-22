@@ -1,0 +1,9 @@
+LDCT article illustration — 2026-10-22
+Generation route: built-in image_gen; no CLI fallback.
+Source image: /Users/changtingwei/.codex/generated_images/019f646d-327b-7ab2-8dd8-28b1f0ffb1d9/exec-44adbdb9-d49f-45a8-b05e-a394cbb0a307.png
+Website assets: assets/articles/low-dose-ct-screening/ldct-exam.webp and ldct-exam.jpg
+Only file-format optimization was performed after generation; no content was retouched.
+Caption on website explicitly identifies this as an AI-generated educational illustration, not an actual hospital photograph.
+
+Final prompt:
+Use case: scientific-educational. Asset type: original landscape illustration for a Traditional Chinese physician patient-education website about low-dose chest CT (LDCT). Create one polished editorial medical illustration, landscape 3:2. Show an adult Taiwanese/East Asian patient lying supine on a CT table in a modest hospital gown, arms comfortably raised above the head, chest aligned with a short wide circular CT gantry. A radiologic technologist is visible behind a protective glass control-room window monitoring the examination. It is a short open CT ring, NOT a long MRI tunnel. Clean calm clinical space, white and restrained deep teal matching a professional physician website, gentle warm accent, clear and reassuring but not promotional. Use tasteful semi-realistic illustration rather than a photograph, coherent correct anatomy, exactly one patient. No IV line, no injection, no lead apron, no visible radiation beam, no exposed body, no lung image overlay, no brand, no hospital logo, no text or numbers, no watermark. Educational conceptual image, not an actual hospital or named doctor.
