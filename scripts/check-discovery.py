@@ -40,7 +40,7 @@ for path in ('index.html', 'about/index.html', 'en/index.html'):
     assert all(item.get('@type') != 'ScholarlyArticle' for item in person.get('subjectOf', [])), path
     if path != 'index.html':
         visible = ''.join(VisiblePage(source).text)
-        assert all(term in visible for term in ('張庭瑋', 'Ting-Wei Chang', '1080224')), path
+        assert all(term in visible for term in ('張庭瑋', 'Ting-Wei Chang')), path
 
 for path in ('thoracic/index.html', 'bariatric/index.html', 'esophageal/index.html', 'en/index.html'):
     source = (ROOT / path).read_text()
@@ -63,7 +63,7 @@ for slug in ('pulmonary-nodules-follow-up', 'low-dose-ct-lung-screening', 'baria
     source = (ROOT / path).read_text()
     card = re.search(r'<section class="clinician-context".*?</section>', source, re.S).group(0)
     visible = ''.join(VisiblePage(card).text)
-    assert all(term in visible for term in ('張庭瑋', 'Ting-Wei Chang', '1080224', '非醫院官方網站')), path
+    assert all(term in visible for term in ('張庭瑋', 'Ting-Wei Chang', '高醫本院', '高醫岡山')), path
     graph = json.loads(re.search(r'<script type="application/ld\+json" data-clinician-identity>(.*?)</script>', source, re.S).group(1))
     assert graph['@id'] == PHYSICIAN and graph['name'] == '張庭瑋', path
     assert graph['identifier']['value'] == '1080224', path
@@ -71,4 +71,22 @@ for slug in ('pulmonary-nodules-follow-up', 'low-dose-ct-lung-screening', 'baria
         assert any(urlsplit(a.get('href', '')).hostname == host and parse_qs(urlsplit(a['href']).query).get('doctorID') == ['1080224'] for a in VisiblePage(card).links), path
     assert len(re.findall(r'id="clinician-context"', source)) == 1, path
 
-print('PASS: 3 physician identity graphs, 4 care/booking pages, 4 article identity/source cards, official hospital destinations.')
+# Internal validation notes belong in private working records, not patient copy.
+# The physician ID must remain in JSON-LD and official URLs above, not in prose.
+internal_copy = (
+    '1080224', '身分來源核對', '此日期不代表臨床內容重新審閱',
+    '降低中英文實體混淆', '交叉核對', '未提供未核實', '不引用未核對',
+    '本頁不由題名推算', '未轉載原文全文', '清楚標示紀錄的性質',
+    '本文不提供未經確認',
+    'Cross-check', 'cross-checked', 'Identity sources checked',
+    'These public sources help distinguish',
+)
+checked = 0
+for file in ROOT.rglob('*.html'):
+    if any(part.startswith('.') for part in file.relative_to(ROOT).parts) or file.name.startswith('google'):
+        continue
+    visible = ''.join(VisiblePage(file.read_text()).text)
+    assert not any(term in visible for term in internal_copy), str(file.relative_to(ROOT))
+    checked += 1
+
+print(f'PASS: 3 physician identity graphs, 4 care/booking pages, 4 article identity/source cards, official hospital destinations, {checked} pages free of internal editorial notes.')
