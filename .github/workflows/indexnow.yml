@@ -64,7 +64,12 @@ jobs:
               "https://drchangtingwei.com/articles/esophageal-foreign-body.html",
               "https://drchangtingwei.com/articles/lung-nodule-biopsy-surgery.html",
               "https://drchangtingwei.com/articles/mediastinal-tumor.html",
-              "https://drchangtingwei.com/articles/bariatric-surgery-assessment.html"
+              "https://drchangtingwei.com/articles/bariatric-surgery-assessment.html",
+              "https://drchangtingwei.com/publications/",
+              "https://drchangtingwei.com/media/",
+              "https://drchangtingwei.com/articles/bariatric-weight-regain.html",
+              "https://drchangtingwei.com/articles/bariatric-pain-nausea.html",
+              "https://drchangtingwei.com/articles/lung-surgery-breathing-exercises.html"
             ]
           }
           JSON

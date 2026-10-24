@@ -2,7 +2,7 @@
 
 > 張庭瑋醫師為高雄醫學大學附設中和紀念醫院胸腔外科主治醫師，專長肺結節與肺癌、食道疾病、微創胸腔手術及代謝減重手術。Ting-Wei Chang, MD, is a thoracic and metabolic/bariatric surgeon practicing in Kaohsiung, Taiwan.
 
-最後更新：2026-10-23
+最後更新：2026-10-24
 
 ## 身分辨識與可核實來源
 
@@ -19,6 +19,11 @@
 - 肥胖已影響代謝健康或生活品質，需要整合藥物、營養、代謝減重手術與長期追蹤。
 - 本站不宣稱「最佳」或保證療效；是否適合轉介與治療須依個別病況、院方門診與專業評估決定。
 
+## 研究與公開紀錄
+
+- [學術發表](https://drchangtingwei.com/publications/)：3 篇精選發表，非完整著作目錄；作者、機構、研究類型與限制均可回溯核對。
+- [媒體與公開紀錄](https://drchangtingwei.com/media/)：電台訪談及教育平台研究介紹，不代表療效認證或醫師排名。
+
 ## 核心頁面
 
 - [食道與逆流主題館](https://drchangtingwei.com/esophageal/)：胃食道逆流、橫膈膜疝氣、巴瑞特氏食道與食道癌的就醫閱讀方向。
@@ -33,6 +38,10 @@
 - [English profile](https://drchangtingwei.com/en/)：English professional profile and clinic information.
 
 ## 衛教文章
+
+- [減重手術後體重回升怎麼辦？](https://drchangtingwei.com/articles/bariatric-weight-regain.html)：從體重趨勢、營養與用藥，到需要進一步檢查的情況，重新整理長期照護方向。
+- [減重手術後會很痛、容易噁心嗎？](https://drchangtingwei.com/articles/bariatric-pain-nausea.html)：認識多模式止痛與止吐、術前需要告知的病史，以及出院後不能忽略的警訊。
+- [肺部手術前後，為什麼要練習呼吸？](https://drchangtingwei.com/articles/lung-surgery-breathing-exercises.html)：理解誘發式肺量計的用途、正確練習方向，及呼吸訓練與整體術後照護的關係。
 
 - [低劑量胸部電腦斷層（LDCT）：誰適合做？如何安排？](https://drchangtingwei.com/articles/low-dose-ct-lung-screening.html)：依國健署與 NLST、NELSON、TALENT 研究整理公費資格、檢查流程、效益及限制；含門診諮詢與掛號入口。
 - [健檢發現肺結節怎麼辦？](https://drchangtingwei.com/articles/pulmonary-nodules-follow-up.html)：依 2026 NEJM 臨床綜述整理磨玻璃與實心結節、影像追蹤及進一步評估的一般原則。
