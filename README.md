@@ -7,8 +7,11 @@
 - `index.html`：首頁與依問題分流入口。
 - `thoracic/`、`esophageal/`、`bariatric/`：肺部胸腔、食道逆流、代謝減重主題。
 - `articles/`：衛教文章；分類搜尋是漸進增強，所有文章文字與連結均存在 HTML 中。
+- `publications/`、`media/`：精選學術發表與媒體／公開紀錄；保留來源及查核日期，不能把精選篇數當作完整著作數量。
+- 2026-10-24 新增研究轉譯衛教：`bariatric-weight-regain.html`、`bariatric-pain-nausea.html`、`lung-surgery-breathing-exercises.html`。原創流程圖使用 HTML/CSS，手機與無 JavaScript 均可閱讀。
 - `appointment/`、`prepare/`：院方掛號、看診準備與手術評估提問清單。
 - `styles.css`：原有元件；`patient-navigation.css`：全站分流與響應式補充；`script.js`：選單及本機文章搜尋。
+- `research-education.css`：學術、公開紀錄及研究轉譯文章的版面。學術來源以 PubMed、DOI 與作者機構核對；不推定未確認的通訊作者身分、全文數值或醫師親自審閱紀錄。
 
 使用 `python3 -m http.server 8832 --bind 127.0.0.1` 預覽。發布前執行 `python3 scripts/check-site.py`，檢查內部連結、錨點、圖片替代文字、JSON-LD、canonical 與 sitemap 一致性，並實測手機選單與掛號連結。
 
