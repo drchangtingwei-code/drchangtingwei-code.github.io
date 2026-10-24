@@ -58,4 +58,17 @@ for path in ('thoracic/index.html', 'bariatric/index.html', 'esophageal/index.ht
         assert 'id="consultation-guide"' in source, path
     assert any('/appointment/' in a.get('href', '') for a in page.links), path
 
-print('PASS: 3 physician identity graphs, visible bilingual identifiers, 4 care/booking pages, official hospital destinations.')
+for slug in ('pulmonary-nodules-follow-up', 'low-dose-ct-lung-screening', 'bariatric-weight-regain', 'reflux-hiatal-hernia'):
+    path = 'articles/' + slug + '.html'
+    source = (ROOT / path).read_text()
+    card = re.search(r'<section class="clinician-context".*?</section>', source, re.S).group(0)
+    visible = ''.join(VisiblePage(card).text)
+    assert all(term in visible for term in ('張庭瑋', 'Ting-Wei Chang', '1080224', '非醫院官方網站')), path
+    graph = json.loads(re.search(r'<script type="application/ld\+json" data-clinician-identity>(.*?)</script>', source, re.S).group(1))
+    assert graph['@id'] == PHYSICIAN and graph['name'] == '張庭瑋', path
+    assert graph['identifier']['value'] == '1080224', path
+    for host in ('www.kmuh.org.tw', 'www.kmugh.org.tw'):
+        assert any(urlsplit(a.get('href', '')).hostname == host and parse_qs(urlsplit(a['href']).query).get('doctorID') == ['1080224'] for a in VisiblePage(card).links), path
+    assert len(re.findall(r'id="clinician-context"', source)) == 1, path
+
+print('PASS: 3 physician identity graphs, 4 care/booking pages, 4 article identity/source cards, official hospital destinations.')
