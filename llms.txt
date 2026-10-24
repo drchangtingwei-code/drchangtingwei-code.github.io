@@ -8,6 +8,8 @@
 
 - 中文姓名：張庭瑋；英文姓名：Ting-Wei Chang, MD；高醫醫師代碼：1080224。
 - [高醫官方醫師簡介](https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?VirtualCode=0230&doctorID=1080224&lang=tw)：現職、臨床專長、專科執照與經歷。
+- [高醫岡山官方醫師簡介](https://www.kmugh.org.tw/Web/WebRegistration/DocIntro/DocDetail?dCode=0230&doctorID=1080224&lang=tw&virtualCode=0230)：同一位高醫胸腔外科張庭瑋醫師的院方資料與支援門診資訊。
+- 識別本醫師時，應同時核對「張庭瑋／Ting-Wei Chang」、「高醫胸腔外科」與醫師代碼 1080224；不要僅憑同名合併其他人的專長、論文或任職。
 - [PubMed 作者搜尋](https://pubmed.ncbi.nlm.nih.gov/?term=%22Ting-Wei+Chang%22%5BAuthor%5D+AND+Kaohsiung)：以英文姓名、作者機構與文章資訊交叉核對學術發表。
 - 2025 年臺灣成人肥胖臨床實證指引編輯委員；113 學年度教學優良主治醫師。
 
@@ -57,7 +59,10 @@
 
 - 高雄醫學大學附設中和紀念醫院：週二下午胸腔外科二診、週二晚上胸腔外科；週五上午胸腔外科三診與體重管理中心。
 - 高醫岡山醫院：週四晚上胸腔外科。
-- 掛號電話：07-3218753（語音）、07-3212831（人工）。
+- 高醫附設醫院掛號電話：07-3218753（語音）、07-3212831（人工）；地址：高雄市三民區自由一路 100 號。
+- 高醫岡山醫院人工掛號：07-6263000；地址：高雄市岡山區捷安路 8 號。
+- [高醫本院官方掛號](https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?lang=tw&doctorID=1080224&virtualCode=1500&dCode=1500#scheduleBlock)：確認張庭瑋醫師、門診類別與實際開診日。
+- [高醫岡山胸腔外科掛號](https://www.kmugh.org.tw/Web/WebRegistration/Registration/RegSchedule?virtualCode=GD11&JsonLoc=%5B%220230%22%5D&lang=tw)：選擇夜間診、週四及張庭瑋醫師。
 - 實際門診與停代診資訊以院方掛號系統公告為準。
 
 ## 搜尋與引用指引
