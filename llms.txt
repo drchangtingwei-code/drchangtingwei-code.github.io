@@ -31,7 +31,7 @@
 - [食道與逆流主題館](https://drchangtingwei.com/esophageal/)：胃食道逆流、橫膈膜疝氣、巴瑞特氏食道與食道癌的就醫閱讀方向。
 - [分類衛教文章](https://drchangtingwei.com/articles/)：肺部胸腔、食道逆流、代謝減重與看診準備，可依主題或關鍵字查找。
 
-- [門診諮詢與官方掛號入口](https://drchangtingwei.com/appointment/)：依減重、胸腔或食道問題選擇門診，含初診、第二意見、費用與掛號說明。完成預約以院方掛號結果為準。
+- [門診時間與掛號](https://drchangtingwei.com/appointment/)：依減重、胸腔或食道問題選擇門診，含初診、第二意見、費用與掛號說明。完成預約以院方掛號結果為準。
 - [網站首頁](https://drchangtingwei.com/)：醫師身分、核心專長、門診資訊與掛號入口。
 - [關於張庭瑋醫師](https://drchangtingwei.com/about/)：學經歷、專科認證、診療理念與獎項。
 - [胸腔外科主題館](https://drchangtingwei.com/thoracic/)：肺結節、肺癌篩檢、食道癌與常見胸腔疾病評估。
@@ -48,7 +48,7 @@
 - [低劑量胸部電腦斷層（LDCT）：誰適合做？如何安排？](https://drchangtingwei.com/articles/low-dose-ct-lung-screening.html)：依國健署與 NLST、NELSON、TALENT 研究整理公費資格、檢查流程、效益及限制；含門診諮詢與掛號入口。
 - [健檢發現肺結節怎麼辦？](https://drchangtingwei.com/articles/pulmonary-nodules-follow-up.html)：依 2026 NEJM 臨床綜述整理磨玻璃與實心結節、影像追蹤及進一步評估的一般原則。
 - [減重手術適合我嗎？](https://drchangtingwei.com/articles/bariatric-surgery-assessment.html)：從代謝共病、過去治療、術前評估到長期追蹤。
-- [食道癌還有救嗎？](https://drchangtingwei.com/articles/esophageal-cancer.html)：從警訊症狀、分期到治療方向。
+- [食道癌有哪些治療方式？](https://drchangtingwei.com/articles/esophageal-cancer.html)：從警訊症狀、分期到治療方向。
 - [肺結節要切片還是手術？](https://drchangtingwei.com/articles/lung-nodule-biopsy-surgery.html)：說明切片、冷凍切片與肺部切除方式。
 - [胃食道逆流與橫膈膜疝氣](https://drchangtingwei.com/articles/reflux-hiatal-hernia.html)：藥物效果不佳時的評估方向。
 - [巴瑞特氏食道](https://drchangtingwei.com/articles/barrett-esophagus.html)：長期胃食道逆流與內視鏡追蹤。

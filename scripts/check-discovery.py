@@ -87,6 +87,18 @@ for file in ROOT.rglob('*.html'):
         continue
     visible = ''.join(VisiblePage(file.read_text()).text)
     assert not any(term in visible for term in internal_copy), str(file.relative_to(ROOT))
+    source = file.read_text()
+    if 'class="mobile-cta"' in source and file.relative_to(ROOT).as_posix() != 'en/index.html':
+        assert re.search(r'<a class="mobile-cta"[^>]*>\s*門診時間與掛號\s*</a>', source), str(file.relative_to(ROOT))
+    assert '食道癌還有救嗎' not in source, str(file.relative_to(ROOT))
     checked += 1
 
+appointment = (ROOT / 'appointment/index.html').read_text()
+for section in ('thoracic', 'bariatric', 'gangshan'):
+    assert f'href="#{section}"' in appointment and f'id="{section}"' in appointment, section
+for path in ('publications/index.html', 'media/index.html'):
+    source = (ROOT / path).read_text()
+    assert '<section class="final-cta"' in source and 'href="../appointment/"' in source, path
+
 print(f'PASS: 3 physician identity graphs, 4 care/booking pages, 4 article identity/source cards, official hospital destinations, {checked} pages free of internal editorial notes.')
+print('PASS: consistent mobile booking labels, appointment shortcuts, and publication/media booking prompts.')
