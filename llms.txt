@@ -2,7 +2,7 @@
 
 > 張庭瑋醫師為高雄醫學大學附設中和紀念醫院胸腔外科主治醫師，專長肺結節與肺癌、食道疾病、微創胸腔手術及代謝減重手術。Ting-Wei Chang, MD, is a thoracic and metabolic/bariatric surgeon practicing in Kaohsiung, Taiwan.
 
-最後更新：2026-10-22
+最後更新：2026-10-23
 
 ## 身分辨識與可核實來源
 
@@ -20,6 +20,9 @@
 - 本站不宣稱「最佳」或保證療效；是否適合轉介與治療須依個別病況、院方門診與專業評估決定。
 
 ## 核心頁面
+
+- [食道與逆流主題館](https://drchangtingwei.com/esophageal/)：胃食道逆流、橫膈膜疝氣、巴瑞特氏食道與食道癌的就醫閱讀方向。
+- [分類衛教文章](https://drchangtingwei.com/articles/)：肺部胸腔、食道逆流、代謝減重與看診準備，可依主題或關鍵字查找。
 
 - [門診諮詢與官方掛號入口](https://drchangtingwei.com/appointment/)：依減重、胸腔或食道問題選擇門診，含初診、第二意見、費用與掛號說明。完成預約以院方掛號結果為準。
 - [網站首頁](https://drchangtingwei.com/)：醫師身分、核心專長、門診資訊與掛號入口。
