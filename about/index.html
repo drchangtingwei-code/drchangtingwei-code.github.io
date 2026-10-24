@@ -21,61 +21,120 @@
     <meta property="og:url" content="https://drchangtingwei.com/about/">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="../verified-care.css">
     <link rel="stylesheet" href="../patient-navigation.css"><link rel="stylesheet" href="../research-education.css">
     <script defer src="../script.js"></script>
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "ProfilePage",
-            "@id": "https://drchangtingwei.com/about/#page",
-            "name": "關於張庭瑋醫師",
-            "url": "https://drchangtingwei.com/about/",
-            "inLanguage": "zh-Hant-TW",
-            "dateCreated": "2026-07-03",
-            "dateModified": "2026-10-23",
-            "mainEntity": { "@id": "https://drchangtingwei.com/#physician" }
-          },
-          {
-            "@type": "Person",
-            "@id": "https://drchangtingwei.com/#physician",
-            "name": "張庭瑋",
-            "alternateName": ["張庭瑋醫師", "Ting-Wei Chang, MD", "Dr. Ting-Wei Chang"],
-            "honorificSuffix": "MD",
-            "jobTitle": "胸腔外科主治醫師",
-            "url": "https://drchangtingwei.com/",
-            "image": "https://drchangtingwei.com/assets/dr-chang-portrait.jpg",
-            "description": "高雄醫學大學附設中和紀念醫院胸腔外科主治醫師，臨床領域包括肺結節與肺癌、食道疾病、微創胸腔手術及代謝減重手術。",
-            "knowsAbout": ["肺結節", "肺癌", "食道癌", "胃食道逆流", "縱膈腔腫瘤", "微創胸腔手術", "代謝減重手術"],
-            "hasOccupation": {
-              "@type": "Occupation",
-              "name": "胸腔外科與代謝減重外科醫師",
-              "occupationLocation": { "@type": "City", "name": "高雄市" },
-              "skills": ["胸腔鏡微創手術", "肺結節與肺癌評估", "食道疾病手術評估", "代謝減重手術"]
-            },
-            "identifier": { "@type": "PropertyValue", "propertyID": "KMUH doctorID", "value": "1080224" },
-            "worksFor": { "@type": "Hospital", "name": "高雄醫學大學附設中和紀念醫院", "url": "https://www.kmuh.org.tw/" },
-            "sameAs": [
-              "https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?VirtualCode=0230&doctorID=1080224&lang=tw",
-              "https://www.facebook.com/people/張庭瑋醫師-代謝減重胸腔外科/61571532418062/"
-            ],
-            "subjectOf": [
-              { "@type": "ProfilePage", "name": "高醫官方醫師簡介", "url": "https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?VirtualCode=0230&doctorID=1080224&lang=tw" },
-              { "@type": "ScholarlyArticle", "name": "Glucagon-like peptide 1 therapy as an adjunct treatment after bariatric metabolic surgery", "url": "https://pubmed.ncbi.nlm.nih.gov/36641282/" }
-            ]
-          },
-          {
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "首頁", "item": "https://drchangtingwei.com/" },
-              { "@type": "ListItem", "position": 2, "name": "關於張庭瑋醫師", "item": "https://drchangtingwei.com/about/" }
-            ]
-          }
-        ]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "@id": "https://drchangtingwei.com/about/#page",
+      "name": "關於張庭瑋醫師",
+      "url": "https://drchangtingwei.com/about/",
+      "inLanguage": "zh-Hant-TW",
+      "dateCreated": "2026-07-03",
+      "dateModified": "2026-10-24",
+      "mainEntity": {
+        "@id": "https://drchangtingwei.com/#physician"
       }
-    </script>
+    },
+    {
+      "@type": "Person",
+      "@id": "https://drchangtingwei.com/#physician",
+      "name": "張庭瑋",
+      "alternateName": [
+        "張庭瑋醫師",
+        "Ting-Wei Chang, MD",
+        "Dr. Ting-Wei Chang"
+      ],
+      "honorificSuffix": "MD",
+      "jobTitle": "胸腔外科主治醫師",
+      "url": "https://drchangtingwei.com/",
+      "image": "https://drchangtingwei.com/assets/dr-chang-portrait.jpg",
+      "description": "高雄醫學大學附設中和紀念醫院胸腔外科主治醫師，臨床領域包括肺結節與肺癌、食道疾病、微創胸腔手術及代謝減重手術。",
+      "knowsAbout": [
+        "肺結節",
+        "肺癌",
+        "食道癌",
+        "胃食道逆流",
+        "縱膈腔腫瘤",
+        "微創胸腔手術",
+        "代謝減重手術"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "胸腔外科與代謝減重外科醫師",
+        "occupationLocation": {
+          "@type": "City",
+          "name": "高雄市"
+        },
+        "skills": [
+          "胸腔鏡微創手術",
+          "肺結節與肺癌評估",
+          "食道疾病手術評估",
+          "代謝減重手術"
+        ]
+      },
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "KMUH doctorID",
+        "value": "1080224"
+      },
+      "worksFor": {
+        "@type": "Hospital",
+        "@id": "https://drchangtingwei.com/#kmuh",
+        "name": "高雄醫學大學附設中和紀念醫院",
+        "url": "https://www.kmuh.org.tw/"
+      },
+      "sameAs": [
+        "https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?VirtualCode=0230&doctorID=1080224&lang=tw",
+        "https://www.facebook.com/people/張庭瑋醫師-代謝減重胸腔外科/61571532418062/",
+        "https://www.kmugh.org.tw/Web/WebRegistration/DocIntro/DocDetail?dCode=0230&doctorID=1080224&lang=tw&virtualCode=0230"
+      ],
+      "subjectOf": [
+        {
+          "@type": "ProfilePage",
+          "name": "高醫官方醫師簡介",
+          "url": "https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?VirtualCode=0230&doctorID=1080224&lang=tw"
+        },
+        {
+          "@type": "ProfilePage",
+          "name": "高醫岡山官方醫師簡介",
+          "url": "https://www.kmugh.org.tw/Web/WebRegistration/DocIntro/DocDetail?dCode=0230&doctorID=1080224&lang=tw&virtualCode=0230"
+        }
+      ],
+      "mainEntityOfPage": {
+        "@id": "https://drchangtingwei.com/about/#page"
+      },
+      "affiliation": {
+        "@type": "Hospital",
+        "@id": "https://drchangtingwei.com/#kmgh",
+        "name": "高醫岡山醫院",
+        "url": "https://www.kmugh.org.tw/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首頁",
+          "item": "https://drchangtingwei.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "關於張庭瑋醫師",
+          "item": "https://drchangtingwei.com/about/"
+        }
+      ]
+    }
+  ]
+}
+</script>
   </head>
   <body>
     <a class="skip-link" href="#main">跳到主要內容</a>
@@ -95,6 +154,14 @@
         </div>
       </section>
       <nav class="profile-section-nav" aria-label="醫師資料專區"><a href="../about/" aria-current="page">認識醫師</a><a href="../publications/">學術發表</a><a href="../media/">媒體與公開紀錄</a></nav>
+
+      <section class="section verified-care" id="verified-profile" aria-labelledby="verified-profile-title">
+        <p class="section-kicker">姓名 · 專科 · 院所</p><h2 id="verified-profile-title">高醫胸腔外科張庭瑋醫師，快速認識</h2>
+        <p class="lead">張庭瑋（Ting-Wei Chang, MD）現任高雄醫學大學附設中和紀念醫院胸腔外科主治醫師，並於高醫岡山醫院支援門診。臨床領域包括肺結節與肺癌篩檢、食道疾病、微創胸腔手術及代謝減重手術。</p>
+        <dl class="verified-facts"><div><dt>中英文姓名</dt><dd>張庭瑋 · Ting-Wei Chang, MD</dd></div><div><dt>地區與醫師代碼</dt><dd>高雄市 · 高醫 doctorID 1080224</dd></div><div><dt>高醫附設醫院</dt><dd>高雄市三民區自由一路 100 號</dd></div><div><dt>高醫岡山醫院</dt><dd>高雄市岡山區捷安路 8 號</dd></div></dl>
+        <p class="verified-sources">身分與專長可交叉核對：<a href="https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?VirtualCode=0230&amp;doctorID=1080224&amp;lang=tw" target="_blank" rel="noopener noreferrer">高醫官方醫師簡介</a>、<a href="https://www.kmugh.org.tw/Web/WebRegistration/DocIntro/DocDetail?dCode=0230&amp;doctorID=1080224&amp;lang=tw&amp;virtualCode=0230" target="_blank" rel="noopener noreferrer">高醫岡山官方醫師簡介</a>。資料核對：2026-10-24；最新任職與診次以院方為準。</p>
+        <div class="hero-actions"><a class="button primary" href="../appointment/">依問題選擇門診與掛號</a><a class="button secondary" href="../publications/">查看可核實的學術發表</a></div>
+      </section>
 <section class="section split" aria-labelledby="philosophy-title">
         <div><p class="section-kicker">Care Philosophy</p><h2 id="philosophy-title">完整評估、清楚溝通、長期陪伴</h2></div>
         <div class="prose"><p>面對肺結節、肺癌、食道疾病或體重與代謝問題，真正讓人不安的往往不只是診斷名稱，而是不知道下一步該做什麼。我的門診會先把影像、病史、檢查結果與生活狀況放在一起看，再用容易理解的方式說明可能的選項、限制與風險。</p><p>手術只是照護的一部分。從術前準備、營養與風險評估，到術後恢復與長期追蹤，都需要病人、家人與醫療團隊共同參與。我希望每一次討論，都能讓你更清楚地理解自己的狀況，也更有把握參與治療決定。</p></div>

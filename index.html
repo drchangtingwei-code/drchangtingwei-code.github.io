@@ -34,83 +34,226 @@
     <link rel="stylesheet" href="./patient-navigation.css">
     <script defer src="script.js"></script>
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "Person",
-            "@id": "https://drchangtingwei.com/#physician",
-            "name": "張庭瑋",
-            "alternateName": ["張庭瑋醫師", "Ting-Wei Chang, MD", "Dr. Ting-Wei Chang"],
-            "honorificSuffix": "MD",
-            "jobTitle": "胸腔外科主治醫師",
-            "url": "https://drchangtingwei.com/",
-            "image": "https://drchangtingwei.com/assets/dr-chang-portrait.jpg",
-            "description": "高雄醫學大學附設中和紀念醫院胸腔外科主治醫師，專長肺結節與肺癌篩檢、食道疾病、胃食道逆流手術與微創代謝減重手術。",
-            "knowsAbout": ["肺結節", "肺癌篩檢", "食道癌", "胃食道逆流", "橫膈膜疝氣", "袖狀胃切除", "胃繞道手術", "代謝手術", "達文西手術", "胸腔鏡微創手術"],
-            "hasOccupation": {
-              "@type": "Occupation",
-              "name": "胸腔外科與代謝減重外科醫師",
-              "occupationLocation": { "@type": "City", "name": "高雄市" },
-              "skills": ["胸腔鏡微創手術", "肺結節與肺癌評估", "食道疾病手術評估", "代謝減重手術"]
-            },
-            "identifier": { "@type": "PropertyValue", "propertyID": "KMUH doctorID", "value": "1080224" },
-            "knowsLanguage": ["zh-Hant", "en"],
-            "alumniOf": { "@type": "CollegeOrUniversity", "name": "高雄醫學大學", "sameAs": "https://www.kmu.edu.tw/" },
-            "memberOf": [
-              { "@type": "Organization", "name": "臺灣代謝及減重外科醫學會" },
-              { "@type": "Organization", "name": "台灣胸腔外科醫學會" }
-            ],
-            "hasCredential": [
-              { "@type": "EducationalOccupationalCredential", "credentialCategory": "board certification", "name": "胸腔外科專科醫師" },
-              { "@type": "EducationalOccupationalCredential", "credentialCategory": "board certification", "name": "心臟胸腔外科專科醫師" },
-              { "@type": "EducationalOccupationalCredential", "credentialCategory": "board certification", "name": "重症醫學專科醫師" },
-              { "@type": "EducationalOccupationalCredential", "credentialCategory": "board certification", "name": "一般消化外科專科醫師" },
-              { "@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "達文西手術系統認證" }
-            ],
-            "award": ["113學年度教學優良主治醫師", "2026 Asian-Pacific Metabolic and Bariatric Surgery Congress 最佳口頭報告"],
-            "worksFor": [{ "@id": "https://drchangtingwei.com/#kmuh" }, { "@id": "https://drchangtingwei.com/#kmgh" }],
-            "sameAs": [
-              "https://www.facebook.com/people/張庭瑋醫師-代謝減重胸腔外科/61571532418062/",
-              "https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?VirtualCode=0230&doctorID=1080224&lang=tw"
-            ],
-            "subjectOf": [
-              { "@type": "ProfilePage", "name": "高雄醫學大學附設中和紀念醫院醫師簡介", "url": "https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?VirtualCode=0230&doctorID=1080224&lang=tw" },
-              { "@type": "ScholarlyArticle", "name": "Glucagon-like peptide 1 therapy as an adjunct treatment after bariatric metabolic surgery", "url": "https://pubmed.ncbi.nlm.nih.gov/36641282/" }
-            ]
-          },
-          {
-            "@type": "Hospital",
-            "@id": "https://drchangtingwei.com/#kmuh",
-            "name": "高雄醫學大學附設中和紀念醫院",
-            "url": "https://www.kmuh.org.tw/",
-            "telephone": "+886-7-312-1101",
-            "address": { "@type": "PostalAddress", "streetAddress": "自由一路100號", "addressLocality": "三民區", "addressRegion": "高雄市", "postalCode": "807", "addressCountry": "TW" }
-          },
-          {
-            "@type": "Hospital",
-            "@id": "https://drchangtingwei.com/#kmgh",
-            "name": "高醫岡山醫院",
-            "address": { "@type": "PostalAddress", "addressLocality": "岡山區", "addressRegion": "高雄市", "addressCountry": "TW" }
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://drchangtingwei.com/#website",
-            "name": "張庭瑋醫師｜胸腔外科・代謝減重外科",
-            "url": "https://drchangtingwei.com/",
-            "inLanguage": "zh-Hant-TW",
-            "publisher": { "@id": "https://drchangtingwei.com/#physician" },
-            "hasPart": [
-              { "@type": "WebPage", "name": "張庭瑋醫師門診諮詢與掛號", "url": "https://drchangtingwei.com/appointment/" },
-              { "@type": "WebPage", "name": "關於張庭瑋醫師", "url": "https://drchangtingwei.com/about/" },
-              { "@type": "MedicalWebPage", "name": "高雄胸腔外科與肺結節評估", "url": "https://drchangtingwei.com/thoracic/" },
-              { "@type": "MedicalWebPage", "name": "高雄減重與代謝手術評估", "url": "https://drchangtingwei.com/bariatric/" },
-              { "@type": "CollectionPage", "name": "胸腔外科、食道疾病與代謝減重衛教文章", "url": "https://drchangtingwei.com/articles/" }
-            ]
-          }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://drchangtingwei.com/#physician",
+      "name": "張庭瑋",
+      "alternateName": [
+        "張庭瑋醫師",
+        "Ting-Wei Chang, MD",
+        "Dr. Ting-Wei Chang"
+      ],
+      "honorificSuffix": "MD",
+      "jobTitle": "胸腔外科主治醫師",
+      "url": "https://drchangtingwei.com/",
+      "image": "https://drchangtingwei.com/assets/dr-chang-portrait.jpg",
+      "description": "高雄醫學大學附設中和紀念醫院胸腔外科主治醫師，專長肺結節與肺癌篩檢、食道疾病、胃食道逆流手術與微創代謝減重手術。",
+      "knowsAbout": [
+        "肺結節",
+        "肺癌篩檢",
+        "食道癌",
+        "胃食道逆流",
+        "橫膈膜疝氣",
+        "袖狀胃切除",
+        "胃繞道手術",
+        "代謝手術",
+        "達文西手術",
+        "胸腔鏡微創手術"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "胸腔外科與代謝減重外科醫師",
+        "occupationLocation": {
+          "@type": "City",
+          "name": "高雄市"
+        },
+        "skills": [
+          "胸腔鏡微創手術",
+          "肺結節與肺癌評估",
+          "食道疾病手術評估",
+          "代謝減重手術"
         ]
+      },
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "KMUH doctorID",
+        "value": "1080224"
+      },
+      "knowsLanguage": [
+        "zh-Hant",
+        "en"
+      ],
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "高雄醫學大學",
+        "sameAs": "https://www.kmu.edu.tw/"
+      },
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "臺灣代謝及減重外科醫學會"
+        },
+        {
+          "@type": "Organization",
+          "name": "台灣胸腔外科醫學會"
+        }
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "board certification",
+          "name": "胸腔外科專科醫師"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "board certification",
+          "name": "心臟胸腔外科專科醫師"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "board certification",
+          "name": "重症醫學專科醫師"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "board certification",
+          "name": "一般消化外科專科醫師"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "達文西手術系統認證"
+        }
+      ],
+      "award": [
+        "113學年度教學優良主治醫師",
+        "2026 Asian-Pacific Metabolic and Bariatric Surgery Congress 最佳口頭報告"
+      ],
+      "worksFor": {
+        "@type": "Hospital",
+        "@id": "https://drchangtingwei.com/#kmuh",
+        "name": "高雄醫學大學附設中和紀念醫院",
+        "url": "https://www.kmuh.org.tw/"
+      },
+      "sameAs": [
+        "https://www.facebook.com/people/張庭瑋醫師-代謝減重胸腔外科/61571532418062/",
+        "https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?VirtualCode=0230&doctorID=1080224&lang=tw",
+        "https://www.kmugh.org.tw/Web/WebRegistration/DocIntro/DocDetail?dCode=0230&doctorID=1080224&lang=tw&virtualCode=0230"
+      ],
+      "subjectOf": [
+        {
+          "@type": "ProfilePage",
+          "name": "高醫官方醫師簡介",
+          "url": "https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?VirtualCode=0230&doctorID=1080224&lang=tw"
+        },
+        {
+          "@type": "ProfilePage",
+          "name": "高醫岡山官方醫師簡介",
+          "url": "https://www.kmugh.org.tw/Web/WebRegistration/DocIntro/DocDetail?dCode=0230&doctorID=1080224&lang=tw&virtualCode=0230"
+        }
+      ],
+      "mainEntityOfPage": {
+        "@id": "https://drchangtingwei.com/about/#page"
+      },
+      "affiliation": {
+        "@type": "Hospital",
+        "@id": "https://drchangtingwei.com/#kmgh",
+        "name": "高醫岡山醫院",
+        "url": "https://www.kmugh.org.tw/"
       }
-    </script>
+    },
+    {
+      "@type": "Hospital",
+      "@id": "https://drchangtingwei.com/#kmuh",
+      "name": "高雄醫學大學附設中和紀念醫院",
+      "url": "https://www.kmuh.org.tw/",
+      "telephone": "+886-7-312-1101",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "自由一路100號",
+        "addressLocality": "三民區",
+        "addressRegion": "高雄市",
+        "postalCode": "807",
+        "addressCountry": "TW"
+      }
+    },
+    {
+      "@type": "Hospital",
+      "@id": "https://drchangtingwei.com/#kmgh",
+      "name": "高醫岡山醫院",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "岡山區",
+        "addressRegion": "高雄市",
+        "addressCountry": "TW",
+        "streetAddress": "捷安路8號",
+        "postalCode": "820"
+      },
+      "url": "https://www.kmugh.org.tw/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://drchangtingwei.com/#website",
+      "name": "張庭瑋醫師｜胸腔外科・代謝減重外科",
+      "url": "https://drchangtingwei.com/",
+      "inLanguage": "zh-Hant-TW",
+      "publisher": {
+        "@id": "https://drchangtingwei.com/#physician"
+      },
+      "hasPart": [
+        {
+          "@type": "WebPage",
+          "name": "張庭瑋醫師門診諮詢與掛號",
+          "url": "https://drchangtingwei.com/appointment/"
+        },
+        {
+          "@type": "WebPage",
+          "name": "關於張庭瑋醫師",
+          "url": "https://drchangtingwei.com/about/"
+        },
+        {
+          "@type": "MedicalWebPage",
+          "name": "高雄胸腔外科與肺結節評估",
+          "url": "https://drchangtingwei.com/thoracic/"
+        },
+        {
+          "@type": "MedicalWebPage",
+          "name": "高雄減重與代謝手術評估",
+          "url": "https://drchangtingwei.com/bariatric/"
+        },
+        {
+          "@type": "CollectionPage",
+          "name": "胸腔外科、食道疾病與代謝減重衛教文章",
+          "url": "https://drchangtingwei.com/articles/"
+        },
+        {
+          "@type": "MedicalWebPage",
+          "name": "食道與胃食道逆流評估",
+          "url": "https://drchangtingwei.com/esophageal/"
+        },
+        {
+          "@type": "CollectionPage",
+          "name": "張庭瑋醫師學術發表",
+          "url": "https://drchangtingwei.com/publications/"
+        },
+        {
+          "@type": "CollectionPage",
+          "name": "媒體與公開紀錄",
+          "url": "https://drchangtingwei.com/media/"
+        },
+        {
+          "@type": "ProfilePage",
+          "name": "Ting-Wei Chang, MD — English Profile",
+          "url": "https://drchangtingwei.com/en/"
+        }
+      ]
+    }
+  ]
+}
+</script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",

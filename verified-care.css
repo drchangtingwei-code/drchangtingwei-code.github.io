@@ -1,0 +1,16 @@
+/* Visible, source-backed care summaries; the same text is served to all readers. */
+.verified-care { background: #f2f7f4; border-block: 1px solid var(--line); }
+.verified-care .lead { max-width: 64rem; }
+.verified-care-grid, .verified-facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin: 28px 0; }
+.verified-care-grid article, .verified-facts > div { min-width: 0; background: white; border: 1px solid var(--line); border-radius: 14px; padding: 24px; }
+.verified-care-grid h3 { margin-top: 0; }
+.verified-care-grid a, .verified-sources a { color: var(--deep-teal); text-decoration: underline; text-underline-offset: 4px; }
+.verified-facts dt { color: var(--muted); font-size: .9rem; }
+.verified-facts dd { margin: 8px 0 0; font-weight: 700; }
+.verified-sources { color: var(--muted); font-size: .9rem; margin-top: 24px; }
+.verified-care .hero-actions { align-items: center; }
+.verified-care a { overflow-wrap: anywhere; }
+@media (max-width: 720px) {
+  .verified-care-grid, .verified-facts { grid-template-columns: 1fr; gap: 14px; }
+  .verified-care-grid article, .verified-facts > div { padding: 20px; }
+}
