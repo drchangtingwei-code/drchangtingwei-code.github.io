@@ -1,0 +1,14 @@
+/* Shared patient reading aids for the three cancer consultation guides. */
+.cancer-toc { display: flex; flex-wrap: wrap; gap: 10px; margin: 24px 0; }
+.cancer-toc a { padding: 10px 14px; border: 1px solid var(--line); border-radius: 10px; color: var(--deep-teal); background: white; font-weight: 700; }
+.cancer-path { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; padding: 0; margin: 24px 0; list-style: none; counter-reset: care-step; }
+.cancer-path li { counter-increment: care-step; padding: 22px; background: var(--soft); border: 1px solid var(--line); border-radius: 14px; }
+.cancer-path li::before { content: "0" counter(care-step); display: block; color: var(--teal); font-size: 1.4rem; font-weight: 800; margin-bottom: 10px; }
+.cancer-path strong { display: block; margin-bottom: 8px; color: var(--deep-teal); }
+.cancer-path p { margin: 0; font-size: .95rem; }
+.cancer-faq details { padding: 18px 0; border-bottom: 1px solid var(--line); }
+.cancer-faq summary { cursor: pointer; font-weight: 700; line-height: 1.7; color: var(--deep-teal); }
+.cancer-faq details p { margin: 14px 0 0; }
+.cancer-source-note { color: var(--muted); font-size: .9rem; }
+.cancer-guide [id] { scroll-margin-top: 110px; }
+@media (max-width: 900px) { .cancer-path { grid-template-columns: 1fr; } }

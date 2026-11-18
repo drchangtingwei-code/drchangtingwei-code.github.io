@@ -41,6 +41,7 @@
 
 ## 衛教文章
 
+- [肺癌治療與手術評估](https://drchangtingwei.com/articles/lung-cancer-treatment.html)：病理與分期、肺功能、手術範圍、第二意見準備，以及高醫本院與高醫岡山張庭瑋醫師胸腔外科門診入口。
 - [減重手術後體重回升（復胖）怎麼辦？](https://drchangtingwei.com/articles/bariatric-weight-regain.html)：從縮胃或胃繞道術後的體重趨勢、營養與用藥，到再次手術的評估考量、常見問題與門診準備。可於高醫本院體重管理中心張庭瑋醫師週五上午門診諮詢，不代表每個人都需要或適合再次手術。
 - [減重手術後會很痛、容易噁心嗎？](https://drchangtingwei.com/articles/bariatric-pain-nausea.html)：認識多模式止痛與止吐、術前需要告知的病史，以及出院後不能忽略的警訊。
 - [肺部手術前後，為什麼要練習呼吸？](https://drchangtingwei.com/articles/lung-surgery-breathing-exercises.html)：理解誘發式肺量計的用途、正確練習方向，及呼吸訓練與整體術後照護的關係。
@@ -48,12 +49,12 @@
 - [低劑量胸部電腦斷層（LDCT）：誰適合做？如何安排？](https://drchangtingwei.com/articles/low-dose-ct-lung-screening.html)：依國健署與 NLST、NELSON、TALENT 研究整理公費資格、檢查流程、效益及限制；含門診諮詢與掛號入口。
 - [健檢發現肺結節怎麼辦？](https://drchangtingwei.com/articles/pulmonary-nodules-follow-up.html)：依 2026 NEJM 臨床綜述整理磨玻璃與實心結節、影像追蹤及進一步評估的一般原則。
 - [減重手術適合我嗎？](https://drchangtingwei.com/articles/bariatric-surgery-assessment.html)：從代謝共病、過去治療、術前評估到長期追蹤。
-- [食道癌有哪些治療方式？](https://drchangtingwei.com/articles/esophageal-cancer.html)：從警訊症狀、分期到治療方向。
+- [食道癌治療與手術評估](https://drchangtingwei.com/articles/esophageal-cancer.html)：分期、吞嚥與營養、治療順序、第二意見及高雄門診諮詢。
 - [肺結節要切片還是手術？](https://drchangtingwei.com/articles/lung-nodule-biopsy-surgery.html)：說明切片、冷凍切片與肺部切除方式。
 - [胃食道逆流與橫膈膜疝氣](https://drchangtingwei.com/articles/reflux-hiatal-hernia.html)：藥物效果不佳時的評估方向。
 - [巴瑞特氏食道](https://drchangtingwei.com/articles/barrett-esophagus.html)：長期胃食道逆流與內視鏡追蹤。
 - [食道異物](https://drchangtingwei.com/articles/esophageal-foreign-body.html)：魚刺或異物卡住時的安全處理。
-- [縱膈腔腫瘤](https://drchangtingwei.com/articles/mediastinal-tumor.html)：位置、診斷與手術評估重點。
+- [縱膈腔腫瘤與胸腺瘤](https://drchangtingwei.com/articles/mediastinal-tumor.html)：縱膈腔（縱隔腔）腫塊的類型、切片與手術順序、就診準備及高雄門診諮詢。
 
 ## 門診資訊
 

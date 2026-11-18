@@ -119,7 +119,7 @@ for file in (ROOT / 'articles').glob('*.html'):
     assert len(ctas) == 1 and ctas[0]['href'] == '../appointment/#' + target, file.name
     assert f'id="{target}"' in appointment, file.name
     article_routes += 1
-assert article_routes == 12
+assert article_routes == 13
 gangshan_profiles = [a for a in VisiblePage(appointment).links if urlsplit(a.get('href', '')).hostname == 'www.kmugh.org.tw' and '/DocIntro/DocDetail' in urlsplit(a.get('href', '')).path]
 assert len(gangshan_profiles) == 1
 assert parse_qs(urlsplit(gangshan_profiles[0]['href']).query).get('doctorID') == ['1080224']
@@ -142,4 +142,4 @@ assert '外科減重' in appointment and 'QuickPassReserve?FormType=Weight' in a
 print(f'PASS: 3 physician identity graphs, 4 care/booking pages, 4 article identity/source cards, official hospital destinations, {checked} pages free of internal editorial notes.')
 print('PASS: consistent mobile booking labels, appointment shortcuts, and publication/media booking prompts.')
 print('PASS: all booking buttons use verified evergreen routes; no dated RegStep links; 4 visible answers match FAQ structured data.')
-print('PASS: all 12 article mobile buttons lead to the appropriate clinic; Gangshan profile uses the verified physician ID.')
+print(f'PASS: all {article_routes} article mobile buttons lead to the appropriate clinic; Gangshan profile uses the verified physician ID.')
