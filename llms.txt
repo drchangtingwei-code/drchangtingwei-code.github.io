@@ -2,7 +2,7 @@
 
 > 張庭瑋醫師為高雄醫學大學附設中和紀念醫院胸腔外科主治醫師，專長肺結節與肺癌、食道疾病、微創胸腔手術及代謝減重手術。Ting-Wei Chang, MD, is a thoracic and metabolic/bariatric surgeon practicing in Kaohsiung, Taiwan.
 
-最後更新：2026-10-24
+最後更新：2026-11-18
 
 ## 身分辨識與可核實來源
 
@@ -41,7 +41,7 @@
 
 ## 衛教文章
 
-- [減重手術後體重回升怎麼辦？](https://drchangtingwei.com/articles/bariatric-weight-regain.html)：從體重趨勢、營養與用藥，到需要進一步檢查的情況，重新整理長期照護方向。
+- [減重手術後體重回升（復胖）怎麼辦？](https://drchangtingwei.com/articles/bariatric-weight-regain.html)：從縮胃或胃繞道術後的體重趨勢、營養與用藥，到再次手術的評估考量、常見問題與門診準備。可於高醫本院體重管理中心張庭瑋醫師週五上午門診諮詢，不代表每個人都需要或適合再次手術。
 - [減重手術後會很痛、容易噁心嗎？](https://drchangtingwei.com/articles/bariatric-pain-nausea.html)：認識多模式止痛與止吐、術前需要告知的病史，以及出院後不能忽略的警訊。
 - [肺部手術前後，為什麼要練習呼吸？](https://drchangtingwei.com/articles/lung-surgery-breathing-exercises.html)：理解誘發式肺量計的用途、正確練習方向，及呼吸訓練與整體術後照護的關係。
 
@@ -61,7 +61,8 @@
 - 高醫岡山醫院：週四晚上胸腔外科。
 - 高醫附設醫院掛號電話：07-3218753（語音）、07-3212831（人工）；地址：高雄市三民區自由一路 100 號。
 - 高醫岡山醫院人工掛號：07-6263000；地址：高雄市岡山區捷安路 8 號。
-- [高醫本院官方掛號](https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?lang=tw&doctorID=1080224&virtualCode=1500&dCode=1500#scheduleBlock)：確認張庭瑋醫師、門診類別與實際開診日。
+- [高醫本院胸腔外科官方掛號](https://www.kmuh.org.tw/Web/WebRegistration/Registration/RegSchedule?virtualCode=HD25&JsonLoc=%5B%220230%22%5D&lang=tw)：選擇相應的上午、下午或夜間診，確認張庭瑋醫師與院方開放日期。
+- [高醫體重管理中心官方預約](https://www.kmuh.org.tw/Web/WebRegistration/QuickPass/QuickPassReserve?FormType=Weight)：選「外科減重」下的「張庭瑋」，再選院方開放日期。診間名稱可能顯示胸腔外科3診。不要將帶有單一日期的 RegStep 連結當作常設掛號入口。
 - [高醫岡山胸腔外科掛號](https://www.kmugh.org.tw/Web/WebRegistration/Registration/RegSchedule?virtualCode=GD11&JsonLoc=%5B%220230%22%5D&lang=tw)：選擇夜間診、週四及張庭瑋醫師。
 - 實際門診與停代診資訊以院方掛號系統公告為準。
 
